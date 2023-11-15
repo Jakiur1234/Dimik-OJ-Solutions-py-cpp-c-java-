@@ -53,8 +53,11 @@ int main()
 
     for(int i = 0; i <tc ; i++){
         int number;
+
+        //Input the number
         scanf("%d",&number);
 
+        //Check if the number is divided by 2. If it is true the number is even otherwise odd
         if(number % 2 == 0){
             cout<<"even"<<endl;
         }

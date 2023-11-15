@@ -54,9 +54,19 @@ int main()
     for(int i = 0; i <tc ; i++){
         int a;
 
+        //input the number a
         cin>>a;
 
+        //start a loop from 0 to a-1. So the loop will run a times
         for(int i=0;i<a;i++){
+            //this inner loop also run a times so the input will be like this
+            /*
+            ********(a times)
+            ********
+            ********
+            ********
+            (a times)
+            */
             for(int j=0; j < a ; j++){
                 cout<<"*";
             }

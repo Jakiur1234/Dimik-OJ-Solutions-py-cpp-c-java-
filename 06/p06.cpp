@@ -53,17 +53,22 @@ int main()
 
     for(int i = 0; i <tc ; i++){
         string number;
+        //get the number as a string
         cin>>number;
         int first,last;
 
+        //declare stringstream
         stringstream f,l;
 
+        //assign the number first and last number to the stringstream
         f<<number[0];
         l<<number[number.length()-1];
 
+        //convert number to integer by assiginng stringstream to the integer
         f>>first;
         l>>last;
 
+        //now print the some of the integer
         cout<<"Sum = "<<first+last<<endl;
     }
     return 0;

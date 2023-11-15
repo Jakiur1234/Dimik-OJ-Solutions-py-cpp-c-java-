@@ -53,11 +53,15 @@ int main()
 
     for(int i = 0; i <tc ; i++){
         int number;
+        //take number as input
         cin>>number;
 
+        //Print the case number
         cout<<"Case "<<i+1<<": ";
 
+        //continue the loop from 1 to the number
         for(int i= 1; i < number; i++){
+            //if the number is divisiable by i then print the because it is the divisor of the number
             if(number % i == 0){
                 cout<<i<<" ";
             }

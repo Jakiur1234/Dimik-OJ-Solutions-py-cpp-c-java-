@@ -54,8 +54,10 @@ int main()
         int a, b, c;
         int max, mid, min;
 
+        // Input three numbers
         cin >> a >> b >> c;
 
+        // find the maximum
         if (a > b && a > c)
         {
             max = a;
@@ -64,9 +66,11 @@ int main()
         {
             max = b;
         }
-        else
+        else{
             max = c;
+        }
 
+        //find the minimum
         if (a < b && a < c)
         {
             min = a;
@@ -75,9 +79,11 @@ int main()
         {
             min = b;
         }
-        else
+        else{
             min = c;
+        }
 
+        //find the other number that is not minimum or maxuimum. that is middle
         if ((max == a && min == b) || (min == a && max == b))
         {
             mid = c;
@@ -86,9 +92,10 @@ int main()
         {
             mid = a;
         }
-        else
+        else{
             mid = b;
-
+        }
+        
         cout << "Case " << i + 1 << ": " << min << " " << mid << " " << max << endl;
     }
     return 0;

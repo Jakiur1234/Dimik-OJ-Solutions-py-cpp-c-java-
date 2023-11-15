@@ -56,6 +56,9 @@ int main()
         cin.ignore();
         getline(cin,in);
         for(int j=0;j < in.length(); j++){
+            //in[j] == ' ' use to find the space
+            //in[j+1] != ' ' use to find if there multiple space
+            //j != in.length()-1 use to find is the index is last index or not
             if(in[j]==' ' && in[j+1] != ' ' && j != in.length()-1){
                 words++;
             }

@@ -54,6 +54,7 @@ int main()
         cout<<i<<"\t";
         count++;
 
+        //If the output is the last number of the line then print a new line
         if(count == 5){
             cout<<endl;
             count = 0;
