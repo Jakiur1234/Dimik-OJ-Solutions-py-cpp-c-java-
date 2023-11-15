@@ -1,1 +1,1 @@
-# Dimik-OJ-Solutioin-dimikoj.com-
+# Dimik-OJ-Solutioin-dimikoj.com
