@@ -1,5 +1,9 @@
 # Dimik-OJ-Solutioin-dimikoj.com
 
+## Dimik OJ All Proble solution you will find here
+## Go the problems. [Problems Link](https://dimikoj.com/problems)
+## Also in LightOJ. [Problems Link(LightOJ)](https://lightoj.com/problems/category/dimik)
+
 ## Find other OJ solution form [All solution](https://github.com/Jakiur1234/Competitive-Programming#solved-online-judge-problems)
 
 ## Guidelines for Understanding the Solutions:
